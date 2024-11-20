@@ -1,0 +1,21 @@
+git commands:
+
+git clone [url] : copy a repository to your computer
+git branch : show you all the branches
+git branch [name] : will create a new branch
+git chceckout [name] : will move you to the branch
+git chceckout [name] - will -b : will create a new branch and move you
+git merge [name] : will merge the named branch into the branch you are on
+git branch -d [name] : will delete the named branch
+
+order of operations: 
+1. person A makes a repository
+2. person A makes person B a collaborator
+3. person B clones the repository that person A created
+4. both A and B make a each a branch for themselves
+5. both A and B write their code and make their changes
+6. save and push your changes to your branch
+7. you move back into main branch
+8. you merge your branch into main
+9. you push again
+10. you pull
