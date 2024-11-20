@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { resetData, setCategory } from "../redux/dataSlice";
+import { resetData, setCategory } from "../client/app/redux/dataSlice";
 import CategoryForm from "./CategoryForm";
 
 const CategoryModal = ({ closeModal }) => {

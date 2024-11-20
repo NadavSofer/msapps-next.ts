@@ -5,7 +5,7 @@ import {
     incrementPage,
     decrementPage,
     fetchImages,
-} from "../redux/dataSlice.js";
+} from "../client/app/redux/dataSlice.js";
 import ImagesContainer from "./ImagesContainer.jsx";
 import Button from "./Button.jsx";
 import CategoryModal from "./CategoryModal.jsx";
